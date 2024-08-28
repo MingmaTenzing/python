@@ -5,5 +5,5 @@ thisdict = {
 }
 
 
-for x in thisdict:
-    print(thisdict[x])
+x = thisdict.copy()
+print(x)
