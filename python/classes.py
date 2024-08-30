@@ -1,3 +1,5 @@
+import json
+
 class Person: 
     def __init__(myObject, name, age, email) :
         myObject.name = name
@@ -10,4 +12,6 @@ class Person:
 p1 = Person("Mingma",23, "mingmatenzing@gmail.com")
 p2 = Person("Tenzing",20,"tenz@gmail.com")
 
-print(p1,p2)
+
+y = json.dumps(p1)
+print(y)
